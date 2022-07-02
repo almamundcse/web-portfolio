@@ -1,0 +1,28 @@
+body{
+    ont-family: 'Nunito Sans', sans-serif;
+}
+h1{
+    font-size: 40px;
+    line-height: 20px;
+}
+.peter{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    height: 300px;
+    float: left;
+    background-color: aquamarine;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width2{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.frist-image{
+    width: 100%;
+
+}
