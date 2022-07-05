@@ -6,40 +6,89 @@ body{
 *{
     box-sizing: border-box;
 }
-section
-.top-banner{
+.main{
+    width: 100%;
+    height: 600px;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
     display: flex;
-    margin-bottom: 100px;
 }
-h1{
-    font-size: 50px;
-}
-h2{
-    margin-bottom: 30px;
-}
-.peter{
-    color: orange;
-}
-.half-width{
+.artical{
     width: 40%;
-    height: 520px;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-
-.frist-image{
-    width: 100%;
-
+h1{
+    font-size: 50px;
+    margin-top: 50px;
 }
-.anchor-button{
+h2{
+    font-size: 40px;
+}
+h3{
+    padding-top: 30px;
+}
+p{
+    color: dimgray;
+}
+.span{
+    color:orange;
+}
+.artical img{
+    width: 100%;
+}
+.anchor-frist{
     text-decoration: none;
-    font-weight: bold;
-    background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 40px;
-    border-radius: 5px;
+    background-image: linear-gradient(45deg, orange, red);
     color: white;
+    padding: 10px 50px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main1{
+     width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    display:flex;
+}
+.experience-aria{
+    width: 100%;
+    height: 600px;
+    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    border: 1px solid green;
+    display:flex;
+}
+.experience-aria h1{
+    font-size: 40px;
+}
+.experience-aria h3{
+    color: orange;
+}
+.experience-aria .artical{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    margin-top: 20px;
     
 }
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange 100%, cyan 100%);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue 100%, cyan 100%);
+    border-image-slice: 1;
+}
+footer h4{
+    text-align: center;
+    color: dimgray;
+}
+
