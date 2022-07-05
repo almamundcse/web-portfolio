@@ -64,6 +64,9 @@ p{
     background-repeat: no-repeat;
     display:flex;
 }
+.heading{
+    margin-left: 5%;
+}
 .experience-aria h1{
     font-size: 40px;
 }
